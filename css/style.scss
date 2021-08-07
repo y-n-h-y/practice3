@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  .top-menu {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+  }
+  .top-img {
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+  }
+}
+main {
+  .main {
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    height: 1400px;
+    margin: 0 auto;
+    .main_frame1,
+    .main_frame3 {
+      width: 230px;
+      max-width: 100%;
+      background-color: #AEFFBD;
+    }
+    .main_frame2 {
+      width: 500px;
+      background-color: #009900;
+    }
+  }
+}
+footer {
+  .footer-menu {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+  }
+}
